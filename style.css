@@ -1,0 +1,52 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	background: url(productivity.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	font-family: 'Nunito';
+	font-size: 6rem;
+	text-transform: uppercase;
+}
+
+hr {
+	border-width: 3px;
+	border-color: #E5BEC1;
+	width: 10%
+}
+
+.btn {
+	border-radius: 300px;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 1.25rem;
+}
+
+.btn-primary {
+	background-color: #E5BEC1;
+	border-color: #E5BEC1;
+}
+
+.btn-primary:hover {
+	background-color: #E5BEC1;
+	border-color: #E5BEC1;
+	border-width: 3px;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.buffer {
+	height: 10rem;
+}
